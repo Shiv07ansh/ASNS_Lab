@@ -9,7 +9,7 @@
 //Euler’s totient determines the number of values relatively prime to that modulus;
 //a public exponent is chosen that is coprime with the totient;
 //and the private exponent is calculated as its modular inverse.
-//Encryption and decryption then use modular exponentiation with the public and private exponents respectively.
+//Encryption and decryption then use modular exponentiation with the public and private exponents respectively
 
 
 
