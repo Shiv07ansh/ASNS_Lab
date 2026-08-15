@@ -1,3 +1,16 @@
+//RSA is an asymmetric encryption algorithm that uses a public key for encryption and a private key for decryption. 
+//It generates keys from two large prime numbers, relying on the difficulty of factoring their product. 
+//It can also be used for digital signatures, where the private key signs and the public key verifies.
+
+//RSA relies on prime numbers, modular arithmetic, Euler’s totient function, greatest common divisors, and modular inverses.
+//Two prime numbers are multiplied to create a public modulus;
+//Euler’s totient determines the number of values relatively prime to that modulus;
+//a public exponent is chosen that is coprime with the totient;
+//and the private exponent is calculated as its modular inverse.
+//Encryption and decryption then use modular exponentiation with the public and private exponents respectively.
+
+
+
 #include <iostream>
 #include <numeric>
 using namespace std;
